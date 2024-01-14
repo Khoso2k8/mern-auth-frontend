@@ -10,6 +10,7 @@ export default defineConfig({
       '/api': {
         target: 'https://mern-auth-production-df5d.up.railway.app',
         changeOrigin: true,
+        rewrite: path => path.replace(/^\/api/, ''),
       },
     },
   },
