@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE_URL = `api/v1/users/`;
+const BASE_URL = `https://mern-auth-production-df5d.up.railway.app/api/v1/users/`;
 
 axios.defaults.withCredentials = true;
 
