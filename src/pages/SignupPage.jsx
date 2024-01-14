@@ -10,7 +10,7 @@ function SignupPage() {
   const [passwordConfirmType, setPasswordConfirmType] = useState('password');
   const { register, handleSubmit, formState } = useForm();
   const { errors } = formState;
-  console.log(errors);
+
   const { user } = useSelector(state => state.user);
 
   const navigate = useNavigate();
